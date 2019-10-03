@@ -1,0 +1,11 @@
+#landing-image{
+    background-image: url(../imgs/car.jpg);
+    /* https://d32c3oe4bky4k6.cloudfront.net/articles-videos/-/media/uscamediasite/images/story-images/2018/09/26/nascar_2018_chevrolet-camaro-zl1-gm.ashx?modified=20180926133832 */
+
+    height: 50rem;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
