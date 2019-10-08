@@ -61,6 +61,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
     width: 40%;
     height: 100%;
     padding-left: 2rem;
@@ -73,6 +74,11 @@ header{
     width: 25%;
     height: 100%;
     font-size: 20pt;
+}
+
+#nav-brand p{
+    color: #FFE4DD;
+    text-align: center;
 }
 
 nav{

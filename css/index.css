@@ -22,6 +22,7 @@
     background-color: hsla(31, 86%, 59%, 0.2);
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -32,8 +33,7 @@
     font-family: 'Racing Sans One', sans-serif;
 }
 
-
-section{
+.row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
