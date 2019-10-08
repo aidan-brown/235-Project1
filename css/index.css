@@ -2,17 +2,82 @@
     background-image: url(../imgs/car.jpg);
     /* https://d32c3oe4bky4k6.cloudfront.net/articles-videos/-/media/uscamediasite/images/story-images/2018/09/26/nascar_2018_chevrolet-camaro-zl1-gm.ashx?modified=20180926133832 */
 
-    height: 30rem;
+    height: 50vh;
 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 #image-cover{
     width: 100%;
     height: 100%;
     margin: 0;
-    background-color: hsla(167, 70%, 62%, 0.2);
+    background-color: hsla(31, 86%, 59%, 0.2);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#image-cover h1{
+    font-size: 10rem;
+    font-family: 'Racing Sans One', sans-serif;
+}
+
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 10rem;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    width: 24%;
+    min-width: 20rem;;
+    min-height: 30rem;
+
+    background: #F4B572;
+    margin-top: 1rem;
+}
+
+.article-header{
+    background: #F19A3E;
+    color: #FFE4DD;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 0;
+}
+
+.article-content{
+    background: #F7C795;
+    color: #3B3D3B;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    height: 100%;
+    margin: 0 1rem 1rem 1rem;
+}
+
+@media only screen and (max-width: 1000px){
+    #landing-image{
+        background-attachment: scroll;
+    }
+
+    section{
+        margin: 0 1rem;
+    }
 }

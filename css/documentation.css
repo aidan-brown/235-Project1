@@ -1,0 +1,18 @@
+section{
+    margin: auto 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main h2{
+    color: #DC8C39;
+}
+
+main a{
+    color: #C67F33;
+}
+
+main a:hover{
+    color: #B0712E;
+}

@@ -1,4 +1,33 @@
-#large{
-    align-self: center;
-    width: 90%;
+section{
+    margin: auto 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+hr{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:#F4B572;
+    height: 1px;
+}
+
+main h2{
+    color: #C67F33;
+}
+
+main h3{
+    color: #DC8C39;
+}
+
+#game-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+#game-images img{
+    margin: 1rem;
 }
